@@ -50,7 +50,7 @@
 }
 
 .home__description {
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 1rem 0 1rem;
   color: #A2AAB6;
 }
 
@@ -73,7 +73,7 @@
 
 .qr-code-android,
 .qr-code-ios {
-  width: 5.5rem;
+  width: 75px;
   height: auto;
 }
 
@@ -133,7 +133,8 @@
 
 .desc2 {
   color: white;
-  font-size: 125%!important; 
+  font-size: 125%!important;
+  margin-bottom: 12px;
 }
 
 @media screen and (min-width: 1284px) {
@@ -173,7 +174,7 @@
   .img-phone {
     position: absolute;
     top: -270%;
-    left: 65%;
+    left: 68%;
     height: 250%;
     width: auto;
     z-index: 99;
@@ -193,9 +194,9 @@
   .img-water-hand {
     position: absolute;
     top: -125%;
-    right: 6%;
-    height: 70%;
-    width: auto;
+    right: 2%;
+    /* height: 70%; */
+    /* width: auto; */
   }
 }
 
@@ -230,6 +231,7 @@
   .stores-img {
     justify-content: center;
     padding-top: 0;
+    margin-top: 16px;
   }
 }
 
