@@ -1,5 +1,27 @@
 @font-face {
-  font-family: "dinpro";
+  font-family: "dinpro-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: local("DINPro-Medium"),
+    url("https://fonts.cdnfonts.com/s/13730/DINPro-Medium_13934.woff")
+      format("woff"),
+    url("https://fonts.cdnfonts.com/s/13730/DINPro-Medium_13934.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "dinpro-mixed";
+  font-style: normal;
+  font-weight: 600;
+  src: local("DINPro-Mixed"),
+    url("https://fonts.cdnfonts.com/s/13730/DINPro-Mixed_13934.woff")
+      format("woff"),
+    url("https://fonts.cdnfonts.com/s/13730/DINPro-Mixed_13934.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "dinpro-bold";
   font-style: normal;
   font-weight: 700;
   src: local("DINPro-Bold"),

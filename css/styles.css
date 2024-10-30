@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "dinpro", sans-serif;
+  font-family: "dinpro-medium", sans-serif;
 }
 
 .home {
@@ -47,11 +47,13 @@
   margin: 1rem 0 0.5rem 1rem;
   color: white;
   letter-spacing: -0.02em;
+  font-family: "dinpro-bold", sans-serif;
 }
 
 .home__description {
   margin: 0 1rem 0 1rem;
   color: #A2AAB6;
+  /* font-family: "dinpro-medium", sans-serif; */
 }
 
 .stores-img {
