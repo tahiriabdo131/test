@@ -87,26 +87,26 @@
 
 .dot1 {
   background-color: #6095d6;
-  right: 35%;
-  top: 5%;
-  height: 5px;
-  width: 5px;
+  right: 25%;
+  top: 75%;
+  height: 6px;
+  width: 6px;
 }
 
 .dot2 {
   background-color: #9bcd41;
-  right: 27%;
-  top: 7%;
-  height: 8px;
-  width: 8px;
+  right: 20%;
+  top: 70%;
+  height: 10px;
+  width: 10px;
 }
 
 .dot3 {
   background-color: #6095d6;
-  left: 63%;
-  top: 7%;
-  height: 5px;
-  width: 5px;
+  left: 85%;
+  top: 57%;
+  height: 8px;
+  width: 8px;
 }
 
 .dot4 {
@@ -117,7 +117,6 @@
   width: 8px;
 }
 
-.dot3,
 .dot4 {
   display: none;
 }
