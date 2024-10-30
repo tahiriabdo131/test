@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "DINPro-Bold", sans-serif;
+  font-family: "dinpro", sans-serif;
 }
 
 .home {
@@ -103,7 +103,7 @@
 
 .dot3 {
   background-color: #6095d6;
-  left: 60%;
+  left: 63%;
   top: 7%;
   height: 5px;
   width: 5px;
@@ -180,11 +180,11 @@
     z-index: 99;
   }
   .dot1 {
-    top: -244%;
+    top: -264%;
     left: 90%;
   }
   .dot2 {
-    top: -240%;
+    top: -260%;
     left: 92%;
   }
   .dot3,
@@ -195,8 +195,6 @@
     position: absolute;
     top: -125%;
     right: 2%;
-    /* height: 70%; */
-    /* width: auto; */
   }
 }
 
