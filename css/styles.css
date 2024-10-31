@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "dinpro-medium", sans-serif;
+
 }
 
 .home {
@@ -38,7 +39,7 @@
 }
 
 .img-phone {
-  height: 100%;
+  height: 110%;
   width: auto;
 }
 
@@ -53,11 +54,15 @@
 .home__description {
   margin: 0 1rem 0 1rem;
   color: #A2AAB6;
-  /* font-family: "dinpro-medium", sans-serif; */
+}
+
+.paragraph {
+  font-family: "dinpro-regular", sans-serif;
+  font-size: 95%;
 }
 
 .stores-img {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   display: flex;
 }
 
@@ -134,7 +139,7 @@
 
 .desc2 {
   color: white;
-  font-size: 125%!important;
+  font-size: 150%!important;
   margin-bottom: 12px;
 }
 
@@ -157,7 +162,7 @@
   .home__data {
     width: 73%;
     height: 100%;
-    padding: 4rem;
+    padding: 3rem 4rem;
     background: no-repeat top/cover url(../img/ellipse-desktop.svg);
     background-size: cover;
   }

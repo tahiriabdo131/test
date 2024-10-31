@@ -1,32 +1,20 @@
 @font-face {
-  font-family: "dinpro-medium";
+  font-family: "dinpro-regular";
   font-style: normal;
-  font-weight: 500;
-  src: local("DINPro-Medium"),
-    url("https://fonts.cdnfonts.com/s/13730/DINPro-Medium_13934.woff")
-      format("woff"),
-    url("https://fonts.cdnfonts.com/s/13730/DINPro-Medium_13934.woff2")
-      format("woff2");
+  font-weight: normal;
+  src: local("DINPro-regular"), url("../fonts/dinpro-regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "dinpro-mixed";
+  font-family: "dinpro-medium";
   font-style: normal;
-  font-weight: 600;
-  src: local("DINPro-Mixed"),
-    url("https://fonts.cdnfonts.com/s/13730/DINPro-Mixed_13934.woff")
-      format("woff"),
-    url("https://fonts.cdnfonts.com/s/13730/DINPro-Mixed_13934.woff2")
-      format("woff2");
+  font-weight: 400;
+  src: local("DINPro-Medium"), url("../fonts/Dinpro-medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "dinpro-bold";
   font-style: normal;
-  font-weight: 700;
-  src: local("DINPro-Bold"),
-    url("https://fonts.cdnfonts.com/s/13730/DINPro-Bold_13934.woff")
-      format("woff"),
-    url("https://fonts.cdnfonts.com/s/13730/DINPro-Bold_13934.woff2")
-      format("woff2");
+  font-weight: bold;
+  src: local("DINPro-Bold"), url("../fonts/Dinpro-bold.ttf") format("truetype");
 }
