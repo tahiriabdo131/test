@@ -21,9 +21,7 @@ body {
 .main-image {
   position: absolute;
   top: 50%;
-  left: 60%;
-  /* width: 510px;
-  height: 450px; */
+  left: 90%;
   width: 681px;
   height: 601px;
   transform: translateY(-50%);
@@ -69,7 +67,6 @@ body {
   font-size: 14px;
   color: #a2aab6;
   margin-top: 24px;
-  margin-left: 16px;
 }
 
 .stores-img {
@@ -85,15 +82,6 @@ body {
 
 .div-codeQR {
   margin-bottom: 0.5rem;
-}
-
-.div-main-phone {
-  display: none;
-}
-
-.main-phone-image {
-  width: 320px;
-  height: 285px;
 }
 
 ul li {
@@ -147,7 +135,7 @@ ul li {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1283px) {
+@media screen and (min-width: 1024px) and (max-width: 1284px) {
   .circle {
     margin-left: -1380px;
     margin-top: -600px;
@@ -160,26 +148,18 @@ ul li {
     margin-left: -1420px;
     margin-top: -600px;
   }
-  .main-image {
-    width: 45%;
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .circle,
-  .main-image,
   .dot4,
   .div-codeQR {
     display: none;
   }
 
-  .div-main-phone {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
+  body {
+    background-color: #030f40;
+    overflow-y: auto;
   }
 
   .container {
@@ -192,16 +172,24 @@ ul li {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .div-main-phone {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-image {
+    position: static;
+    width: 320px;
+    height: auto;
+    transform: none;
   }
 
   .stores-img {
     justify-content: center;
     margin-top: 16px;
-  }
-
-  body {
-    background-color: #030f40;
   }
 
   .dot1 {
@@ -214,12 +202,5 @@ ul li {
   .dot3 {
     top: 90%;
     right: 8%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .main-phone-image {
-    width: 100%;
-    height: auto;
   }
 }
