@@ -2,86 +2,100 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "dinpro-medium", sans-serif;
-
 }
 
-.home {
-  background-color: #bbdbfd;
-  overflow: hidden;
+body {
   height: 100vh;
+  overflow: hidden;
+  background-color: #bbdbfd;
 }
 
-.home__container {
-  height: 100%;
-  width: 100%;
+.circle {
+  background-color: #030f40;
+  width: 2116px;
+  height: 2116px;
+  border-radius: 50%;
+  position: absolute;
 }
 
-.home__data {
-  height: 65%;
-  width: 100%;
-  padding-top: 2rem;
-  background: no-repeat top/cover url(../img/ellipse-mobile.svg);
-  background-size: 100% 100%;
+.main-image {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  width: 510px;
+  height: 450px;
+  transform: translateY(-50%);
 }
 
-.home-logo {
-  margin-left: 1rem;
-  width: 5rem;
-  height: auto;
-}
-
-.home__img {
-  position: relative;
-  text-align: center;
-  height: 35%;
-  width: 100%;
-}
-
-.img-phone {
-  height: 110%;
-  width: auto;
-}
-
-.home__title {
-  line-height: 1.3;
-  margin: 1rem 0 0.5rem 1rem;
+.container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-left: 48px;
+  width: 60%;
   color: white;
-  letter-spacing: -0.02em;
+  transform: translateY(-50%);
+}
+
+.logo {
+  width: 96px;
+  height: 90px;
+}
+
+.text-hero {
   font-family: "dinpro-bold", sans-serif;
+  font-size: 36px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
 }
 
-.home__description {
-  margin: 0 1rem 0 1rem;
-  color: #A2AAB6;
+.text-description {
+  font-family: "dinpro-medium", sans-serif;
+  font-size: 24px;
 }
 
-.paragraph {
+.text-description-list {
+  font-family: "dinpro-medium", sans-serif;
+  font-size: 14px;
+  color: #a2aab6;
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.text-asterisk {
   font-family: "dinpro-regular", sans-serif;
-  font-size: 80%;
+  font-size: 14px;
+  color: #a2aab6;
+  margin-top: 24px;
+  margin-left: 16px;
 }
 
 .stores-img {
-  padding-top: 1.5rem;
   display: flex;
+  gap: 24px;
+  margin-top: 16px;
 }
 
-.play-store,
-.app-store {
+.app-store,
+.play-store {
   text-align: center;
 }
 
-.app-store {
-  padding: 0 1rem;
-}
-.play-store {
-  padding: 0 1rem;
+.div-codeQR {
+  margin-bottom: 0.5rem;
 }
 
-.qr-code-android,
-.qr-code-ios {
-  width: 75px;
-  height: auto;
+.div-main-phone {
+  display: none;
+}
+
+.main-phone-image {
+  width: 320px;
+  height: 285px;
+}
+
+ul li {
+  margin-bottom: 4px;
 }
 
 .dot1,
@@ -94,172 +108,116 @@
 
 .dot1 {
   background-color: #6095d6;
-  right: 25%;
-  top: 75%;
-  height: 6px;
-  width: 6px;
+  width: 8px;
+  height: 8px;
+  left: 55%;
+  top: 12%;
 }
 
 .dot2 {
-  background-color: #9bcd41;
-  right: 20%;
-  top: 70%;
-  height: 10px;
-  width: 10px;
+  background-color: #6095d6;
+  width: 8px;
+  height: 8px;
+  right: 8%;
+  top: 10%;
 }
 
 .dot3 {
-  background-color: #6095d6;
-  left: 85%;
-  top: 57%;
-  height: 8px;
-  width: 8px;
+  background-color: #9bcd41;
+  width: 16px;
+  height: 16px;
+  right: 5%;
+  top: 12%;
 }
 
 .dot4 {
   background-color: #9bcd41;
-  left: 57%;
-  top: 81%;
-  height: 8px;
   width: 8px;
-}
-
-.dot4 {
-  display: none;
-}
-
-.download-android,
-.download-ios {
-  cursor: pointer;
-}
-
-.div-codeQR {
-  margin-bottom: 0.5rem;
-}
-
-.desc2 {
-  color: white;
-  font-size: 150%!important;
-  margin-bottom: 12px;
+  height: 8px;
+  left: 45%;
+  top: 90%;
 }
 
 @media screen and (min-width: 1284px) {
-  .home__title {
-    padding-right: 25rem !important;
-    font-size: 200% !important;
-  }
-  .home__description {
-    padding-right: 25rem !important;
-    font-size: 150% !important;
-  }
-
-  .desc3 {
-    font-size: 130% !important;
+  .circle {
+    margin-left: -1200px;
+    margin-top: -600px;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .home__data {
-    width: 73%;
-    height: 100%;
-    padding: 3rem 4rem;
-    background: no-repeat top/cover url(../img/ellipse-desktop.svg);
-    background-size: cover;
+@media screen and (min-width: 1024px) and (max-width: 1283px) {
+  .circle {
+    margin-left: -1380px;
+    margin-top: -600px;
   }
-  .home__title {
-    padding-right: 10rem;
-    font-size: 160%;
+}
+
+@media screen and (min-width: 896px) and (max-width: 1024px),
+  screen and (min-width: 768px) and (max-width: 896px) {
+  .circle {
+    margin-left: -1420px;
+    margin-top: -600px;
   }
-  .home__description {
-    padding-right: 10rem;
-    font-size: 120%;
+  .main-image {
+    width: 45%;
+    height: auto;
   }
-  .desc3 {
-    font-size: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+  .circle,
+  .main-image,
+  .dot4,
+  .div-codeQR {
+    display: none;
   }
-  .img-phone {
-    position: absolute;
-    top: -270%;
-    left: 68%;
-    height: 250%;
+
+  .div-main-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .container {
+    margin-left: 16px;
+    margin-top: 16px;
+    padding-right: 4px;
+    position: static;
+    transform: none;
     width: auto;
-    z-index: 99;
-  }
-  .dot1 {
-    top: -264%;
-    left: 90%;
-  }
-  .dot2 {
-    top: -260%;
-    left: 92%;
-  }
-  .dot3,
-  .dot4 {
-    display: block;
-  }
-  .img-water-hand {
-    position: absolute;
-    top: -125%;
-    right: 2%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .home__title {
-    padding-right: 5rem;
-  }
-  .home__description {
-    padding-right: 5rem;
-  }
-  .img-water-hand {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .home__title {
-    font-size: 140%;
-  }
-  .home__description {
-    font-size: 120%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
-  .desc3 {
-    font-size: 115% !important;
-  }
-  .qr-code-ios,
-  .qr-code-android,
-  .img-water-hand {
-    display: none;
-  }
   .stores-img {
     justify-content: center;
-    padding-top: 0;
     margin-top: 16px;
   }
-}
 
-@media screen and (max-width: 450px) {
   body {
-    font-size: 70%;
+    background-color: #030f40;
   }
-  .home__data {
-    height: 65%;
+
+  .dot1 {
+    top: 60%;
+  }
+  .dot2 {
+    top: 95%;
+    right: 12%;
+  }
+  .dot3 {
+    top: 90%;
+    right: 8%;
   }
 }
 
-@media screen and (max-width: 300px) {
-  body {
-    font-size: 60%;
-  }
-  .home__data {
-    height: 68%;
-  }
-  .app-store {
-    padding: 0;
-  }
-  .play-store {
-    padding: 0 0 0 0.5rem;
+@media screen and (max-width: 400px) {
+  .main-phone-image {
+    width: 240px;
+    height: 210px;
   }
 }
-
