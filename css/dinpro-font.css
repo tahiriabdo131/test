@@ -9,12 +9,12 @@
   font-family: "dinpro-medium";
   font-style: normal;
   font-weight: 400;
-  src: local("DINPro-Medium"), url("../fonts/Dinpro-medium.ttf") format("truetype");
+  src: local("DINPro-Medium"), url("../fonts/dinpro-medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "dinpro-bold";
   font-style: normal;
   font-weight: bold;
-  src: local("DINPro-Bold"), url("../fonts/Dinpro-bold.ttf") format("truetype");
+  src: local("DINPro-Bold"), url("../fonts/dinpro-bold.ttf") format("truetype");
 }
