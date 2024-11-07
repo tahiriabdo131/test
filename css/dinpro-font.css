@@ -2,19 +2,19 @@
   font-family: "dinpro-regular";
   font-style: normal;
   font-weight: normal;
-  src: local("DINPro-regular"), url("../fonts/dinpro-regular.ttf") format("truetype");
+  src: local("DINPro-regular"), url("../fonts/DINPro-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "dinpro-medium";
   font-style: normal;
   font-weight: 400;
-  src: local("DINPro-Medium"), url("../fonts/dinpro-medium.ttf") format("truetype");
+  src: local("DINPro-Medium"), url("../fonts/DINPro-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "dinpro-bold";
   font-style: normal;
   font-weight: bold;
-  src: local("DINPro-Bold"), url("../fonts/dinpro-bold.ttf") format("truetype");
+  src: local("DINPro-Bold"), url("../fonts/DINPro-Bold.ttf") format("truetype");
 }
