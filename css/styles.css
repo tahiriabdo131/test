@@ -219,7 +219,7 @@ ul li {
 
 @media screen and (max-width: 400px) {
   .main-phone-image {
-    width: 240px;
-    height: 210px;
+    width: 100%;
+    height: auto;
   }
 }
